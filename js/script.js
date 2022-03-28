@@ -11,7 +11,7 @@ conta.append(row);
 
 for (let a = 1; a <= 100; a++){     
     const col = document.createElement('div');
-    col.setAttribute('class', "col-12 col-sm-6 col-md-4 col-lg-1");
+    col.setAttribute('class', "col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2");
     
     if(a % 3 === 0) {
         col.innerHTML = 'fizz';
