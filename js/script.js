@@ -1,6 +1,10 @@
 let contaCento = 100;
 const conta = document.getElementById('conta');
 const row = document.createElement('div');
+const title = document.createElement('h1');
+title.setAttribute('class', 'title');
+title.innerHTML = 'FizzBuzzDom';
+row.append(title);
 
 
 
@@ -11,26 +15,38 @@ conta.append(row);
 
 for (let a = 1; a <= 100; a++){     
     const col = document.createElement('div');
-    col.setAttribute('class', "col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 color-box");
+    col.setAttribute('class', "col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2");
+    const card = document.createElement('div');
     
     
     if(a % 3 === 0 && a % 5 === 0) {
         col.innerHTML = 'fizzbuzz';
+        const card = document.createElement('div');
+        card.setAttribute('class', 'color-card-4');
+        card.append(col);
         
         
         
         
     }else if(a % 3 === 0){
         col.innerHTML = 'buzz';
+        card.setAttribute('class', 'color-card-2');
+        card.append(col);
+        
         
         
         
     }else if(a % 5 === 0){
         col.innerHTML = 'buzz';
+        card.setAttribute('class', 'color-card-3');
+        card.append(col);
 
     }else{
         console.log(a);
         col.innerHTML = a;
+        card.setAttribute('class', 'color-card-1');
+        card.append(col);
+        
     }
     
     

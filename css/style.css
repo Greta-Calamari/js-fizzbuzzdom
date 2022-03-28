@@ -3,3 +3,23 @@ body{
     color: black !important;
 }
 
+.title{
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    margin:50px;
+
+}
+
+.color-card-1 {
+    background-color: #1389b2;
+}
+.color-card-2 {
+    background-color: #0bd6a1;
+}
+.color-card-3 {
+    background-color:#ffd166;
+}
+.color-card-4 {
+    background-color: #f0466f;
+}
