@@ -24,7 +24,8 @@ for (let a = 1; a <= 100; a++){
         
         
         
-    }else if(){
+    }else if(a % 3 === 0 && a % 5 === 0){
+        col.innerHTML = 'fizzbuzz';
 
     }else{
         console.log(a);
