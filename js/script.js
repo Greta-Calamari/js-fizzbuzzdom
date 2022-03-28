@@ -12,17 +12,27 @@ conta.append(row);
 for (let a = 1; a <= 100; a++){     
     const col = document.createElement('div');
     col.setAttribute('class', "col-12 col-sm-6 col-md-4 col-lg-1");
-    col.innerHTML = a ;
-    console.log(a);
+    
     if(a % 3 === 0) {
-        const fizz = document.createElement('div');
-        fizz.innerHTML = 'fizz';
-        conta.append(fizz)
+        col.innerHTML = 'fizz';
+        
+        
+        
+        
     }else if(a % 5 === 0){
-        const buzz = document.createElement('div');
-        buzz.innerHTML = 'buzz';
-        conta.append(buzz)
-    }else(a)
+        col.innerHTML = 'buzz';
+        
+        
+        
+    }else if(){
+
+    }else{
+        console.log(a);
+        col.innerHTML = a;
+    }
+    
+    
+
 
 
     row.append(col);
