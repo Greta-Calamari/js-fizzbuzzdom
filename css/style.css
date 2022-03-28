@@ -1,4 +1,5 @@
 body{
-    background-color: #083b4c;
-    color: black;
+    background-color: #083b4c !important;  
+    color: black !important;
 }
+
