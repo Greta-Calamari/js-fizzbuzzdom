@@ -15,7 +15,7 @@ conta.append(row);
 
 for (let a = 1; a <= 100; a++){     
     const col = document.createElement('div');
-    col.setAttribute('class', "col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2");
+    col.setAttribute('class', "col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2");
     const card = document.createElement('div');
     
     
@@ -30,7 +30,7 @@ for (let a = 1; a <= 100; a++){
         
     }else if(a % 3 === 0){
         card.innerHTML = 'buzz';
-        card.setAttribute('class', 'color-card-2');
+        card.setAttribute('class', 'color-card-2 ');
         col.append(card);
         
         

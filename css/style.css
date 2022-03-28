@@ -13,18 +13,30 @@ body{
 
 .color-card-1 {
     background-color: #1389b2;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
 }
 .color-card-2 {
     background-color: #0bd6a1;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
 }
 .color-card-3 {
     background-color:#ffd166;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    
 }
 .color-card-4 {
     background-color: #f0466f;
-}
-
-.col{
-    width: 150px;
+    width: 100px;
+    height: 100px;
     text-align: center;
+    line-height: 100px;
 }
