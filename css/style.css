@@ -23,3 +23,8 @@ body{
 .color-card-4 {
     background-color: #f0466f;
 }
+
+.col{
+    width: 150px;
+    text-align: center;
+}
